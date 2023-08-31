@@ -29,12 +29,14 @@ export default {
       {
         name: 'description',
         title: 'Site Intro Text',
-        type: 'text'
+        type: 'array', 
+         of: [{type: 'block'}]
       },
       {
         name: 'mission',
         title: 'Mission Text',
-        type: 'text'
+        type: 'array', 
+        of: [{type: 'block'}]      
       },
       {
         title: 'Social Links',
